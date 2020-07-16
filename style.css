@@ -142,6 +142,7 @@ nav a:hover{
 	text-shadow: 0 0 15px #03dffc, 0 0 25px #0011ff;
 
 }
+
 .current{
      color: black;
 	text-shadow: 0 0 10px #00fcfc;
@@ -179,14 +180,12 @@ footer h1 {
     margin: 0 10px;
 }
 .social-menu ul li .fa {
-    color: #000000;
+    color: #fff;
     font-size: 55px;
     line-height: 80px;
     transition: .5s;
 }
-.social-menu ul li .fa:hover {
-    color: #ffffff;
-}
+
 .social-menu ul li a {
 	margin: 0 30px 0 30px;
     position: relative;
@@ -200,22 +199,22 @@ footer h1 {
     transform: translate(0,0px);
 }
 .social-menu ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -15px);
+    transform: rotate(60deg) skew(0deg) translate(0, -10px);
 }
-.social-menu ul li:nth-child(1) a:hover {
+.social-menu ul li:nth-child(1) a {
     background-color: #3b5999;
 }
-.social-menu ul li:nth-child(2) a:hover {
-    background-color: #55acee;
+.social-menu ul li:nth-child(2) a {
+    background-color: #4dc247;
 }
-.social-menu ul li:nth-child(3) a:hover {
+.social-menu ul li:nth-child(3) a{
     background-color: #e4405f;
 }
-.social-menu ul li:nth-child(4) a:hover {
+.social-menu ul li:nth-child(4) a{
     background-color: #cd201f;
 }
-.social-menu ul li:nth-child(5) a:hover {
-    background-color: #0077B5;
+.social-menu ul li:nth-child(5) a{
+    background-color: #D44638;
 }
 
 /*********************************************
