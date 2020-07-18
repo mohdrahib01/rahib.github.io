@@ -63,15 +63,9 @@
 				<h4 style="font-size: 40px; color: #eb3437;margin:10px 20px 0px 30px; font-weight: bold;" >Note* Go through rules and regualtions once:<br> <a style="color:#dce3b3; " href="#">RULES</a></h4>
 
 
-				<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px " type="submit" class="reg-button"> Register now</button>
+				<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button" class="reg-button"> Register now</button>
 
-				<a id="show-less" style="position: absolute;
-				bottom: 10px;
-				right: 40px;
-				text-decoration: none;
-				color: #fff;
-				transform: rotate(180deg);
-				cursor: pointer;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
+				<a id="show-less" style="position: absolute;bottom: 10px;right: 40px;text-decoration: none;color: #fff;transform: rotate(180deg);cursor: pointer; font-size: 20px;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
@@ -86,6 +80,28 @@
 			document.getElementById('show-more').style.display = "";
 			});
 		</script>
+
+		<div class="reg-form">
+
+			<div class="form-details">
+				<div id="close-reg-form" class="close">+</div>
+				<p>sgerifyuiwefcuewfcueffe<br>
+				saudifuoweifoerugvoprgvurfgvujrfsgerifyuiwefcuewfcueffe<br></p>
+			</div>
+
+			<script type="text/javascript">
+				document.getElementById('form-button').addEventListener("click", function() {
+				document.querySelector('.reg-form').style.display = "flex";
+			});
+
+				document.querySelector('#close-reg-form').addEventListener("click", function() {
+				document.querySelector('.reg-form').style.display = "none";
+			});
+		</script>
+
+
+	
+		</div>
               <!--  *********************************************
                              2nd culoumn
                  *******************************************      -->  
@@ -110,16 +126,10 @@
 				<h4 style="font-size: 40px; color: #eb3437;margin:10px 20px 0px 30px; font-weight: bold;" >Note* Go through rules and regualtions once:<br> <a style="color:#dce3b3; " href="#">RULES</a></h4>
 
 
-				<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px " type="submit" class="reg-button"> Register now</button>
+				<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button1" class="reg-button1"> Register now </button>
 
 
-				<a id="show-less1" style="position: absolute;
-				bottom: 10px;
-				right: 40px;
-				text-decoration: none;
-				color: #fff;
-				transform: rotate(180deg);
-				cursor: pointer;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
+				<a id="show-less1" style="position: absolute;bottom: 10px;right: 40px;text-decoration: none;color: #fff;transform: rotate(180deg);cursor: pointer; font-size: 20px;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
@@ -132,6 +142,25 @@
 			document.getElementById('show-less1').addEventListener("click", function() {
 			document.querySelector('.hidden-content1').style.display = "none";
 			document.getElementById('show-more1').style.display = "";
+			});
+		</script>
+
+		<div class="reg-form1">
+			<a id="reg-form1" href=""></a>
+			<div class="form-details">
+				<div id="close-reg-form1" class="close">+</div>
+				<p>MARIO<br></p>
+			</div>
+		</div>	
+
+			<script type="text/javascript">
+				document.getElementById('form-button1').addEventListener("click", function() {
+				document.querySelector('.reg-form1').style.display = "flex";
+				document.getElementById('reg-form1').href = "#.reg-form1"
+			});
+
+				document.querySelector('#close-reg-form1').addEventListener("click", function() {
+				document.querySelector('.reg-form1').style.display = "none";
 			});
 		</script>
 
@@ -178,6 +207,26 @@
 		
 
 
+		<!-- <div class="reg-form">
+
+			<div class="form-details">
+				<div id="close-reg-form" class="close">+</div>
+				<p>sgerifyuiwefcuewfcueffe<br>
+				saudifuoweifoerugvoprgvurfgvujrfsgerifyuiwefcuewfcueffe<br></p>
+			</div>
+
+			<script type="text/javascript">
+				document.getElementById('form-button').addEventListener("click", function() {
+				document.querySelector('.reg-form').style.display = "flex";
+			});
+
+				document.querySelector('#close-reg-form').addEventListener("click", function() {
+				document.querySelector('.reg-form').style.display = "none";
+			});
+		</script> -->
+
+
+			
 		
 
 	</section>
@@ -211,4 +260,3 @@
 
 
 
->

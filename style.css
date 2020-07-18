@@ -180,6 +180,7 @@ footer h1 {
     margin: 0 10px;
 }
 .social-menu ul li .fa {
+	z-index: 0;
     color: #fff;
     font-size: 55px;
     line-height: 80px;
@@ -280,6 +281,7 @@ tournament
 }
 .show-content .tournament-detail{
 	text-align: center;
+	margin-left: 80px;
 }
 .show-content h2{
 	margin-top: 10px;
@@ -287,7 +289,7 @@ tournament
 	font-weight: bolder;
 	text-align: center;
 	font-size: 50px;
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	color: #e02a1d;
 	text-transform: uppercase;
 	font-family: ;
@@ -300,13 +302,15 @@ tournament
 	
 }
 .show-content a{
+	font-size: 20px;
 	cursor: pointer;
 	position: absolute;
 	bottom: 10px;
-	right: 40px;
+	right: 50px;
 	text-decoration: none;
 	color: #fff;
 }
+
 #show-less , #show-less1{
 	/*position: absolute;
 	bottom: 10px;
@@ -320,3 +324,54 @@ tournament
 }
 
 
+/************************************************************************
+                    registraion form
+*************************************************************************/
+.reg-form{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	/*transform: translate();*/
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+	display: none;justify-content: center;
+	align-items: center;
+}
+.reg-form1{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	/*transform: translate();*/
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+	display: none;justify-content: center;
+	align-items: center;
+}
+.form-details{
+	height: 50%;
+	width: 80%;
+	background-color: white;
+	padding:30px;
+	box-shadow: 4px 6px 10px #b2c9ed;
+	border-radius: 4px;
+	display: flex;justify-content: center;
+	align-items: center;
+}
+
+.close {
+	position: absolute;
+	top: 25%;
+	right: 10%;
+	
+	font-size: 80px;
+	color: rgb(0 0 0);
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #fff;
