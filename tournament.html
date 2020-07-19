@@ -1,8 +1,7 @@
 <!doctype html>
 <head>
 	<meta charset="utf-8">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<title>Mario World</title>
+ 	<title>Mario World</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +41,7 @@
                <!--  *********************************************
                              first culoumn
                  *******************************************      -->       
-		<div class="first-tournament">
+		<div class="first-tournament" id="first-coloumn">
 			<div class="show-content">
 				<img src="img-tournament.jpg">
 				<div class="tournament-detail">
@@ -63,7 +62,7 @@
 				<h4 style="font-size: 40px; color: #eb3437;margin:10px 20px 0px 30px; font-weight: bold;" >Note* Go through rules and regualtions once:<br> <a style="color:#dce3b3; " href="#">RULES</a></h4>
 
 
-				<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button" class="reg-button"> Register now</button>
+			<a href="#reg-form">	<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button" class="reg-button"> Register now</button></a>
 
 				<a id="show-less" style="position: absolute;bottom: 10px;right: 40px;text-decoration: none;color: #fff;transform: rotate(180deg);cursor: pointer; font-size: 20px;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
 			</div>
@@ -81,10 +80,10 @@
 			});
 		</script>
 
-		<div class="reg-form">
+		<div class="reg-form" id="reg-form">
 
 			<div class="form-details">
-				<div id="close-reg-form" class="close">+</div>
+				<div id="close-reg-form" class="close"><a href="#first-coloumn" style="text-decoration: none;color: #000;"> +</a></div>
 				<p>sgerifyuiwefcuewfcueffe<br>
 				saudifuoweifoerugvoprgvurfgvujrfsgerifyuiwefcuewfcueffe<br></p>
 			</div>
@@ -105,7 +104,7 @@
               <!--  *********************************************
                              2nd culoumn
                  *******************************************      -->  
-		<div class="first-tournament">
+		<div id="second-column" class="first-tournament">
 			<div class="show-content">
 				<img src="img-tournament.jpg">
 				<div class="tournament-detail">
@@ -126,7 +125,7 @@
 				<h4 style="font-size: 40px; color: #eb3437;margin:10px 20px 0px 30px; font-weight: bold;" >Note* Go through rules and regualtions once:<br> <a style="color:#dce3b3; " href="#">RULES</a></h4>
 
 
-				<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button1" class="reg-button1"> Register now </button>
+			<a href="#reg-form1">	<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button1" class="reg-button1"> Register now </button></a>
 
 
 				<a id="show-less1" style="position: absolute;bottom: 10px;right: 40px;text-decoration: none;color: #fff;transform: rotate(180deg);cursor: pointer; font-size: 20px;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
@@ -145,10 +144,10 @@
 			});
 		</script>
 
-		<div class="reg-form1">
-			<a id="reg-form1" href=""></a>
+		<div class="reg-form1" id="reg-form1">
+			
 			<div class="form-details">
-				<div id="close-reg-form1" class="close">+</div>
+				<a href="#second-column"><div id="close-reg-form1" class="close"><a style="text-decoration: none;color: #000;" href="#second-column">+</a></div>
 				<p>MARIO<br></p>
 			</div>
 		</div>	
@@ -167,29 +166,31 @@
                   <!--  *********************************************
                              3rd culoumn
                  *******************************************      -->  
-		<div class="first-tournament">
+		<div id="third-column" class="first-tournament">
 			<div class="show-content">
 				<img src="img-tournament.jpg">
 				<div class="tournament-detail">
 					<h2>pubg mobile custom</h2>
-					<p>Classic Erangel: <i class="fa  fa-user" aria-hidden="true"></i> Solo <p><br>
-					<p>Date:21/7/2020 Time[12:00a.m.]</p>	
+					<p>Classic Erangel: <i class="fa  fa-user" aria-hidden="true"></i> Solo <p>
+					<p>Entry:20<i class="fa fa-inr" aria-hidden="true"></i> !  Per/Kill: 10<i class="fa fa-inr" aria-hidden="true"></i></p>	
+					<p>Date:21/7/2020 <br> Time[12:00a.m.]</p>	
 				</div>
 				<a id="show-more2" ><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
 			</div>
 
 			<div class="hidden-content2" style="display: none;">
-				<p>gsrdgsfhvdgjefhewrfhbsdmnbcuiwrfhwuqdfwecfhuwifch
-				wfhwqiofhcwqoifhwihfcisfhvgifcgwiufchiwfw</p>
+				<h4 style="font-size: 30px; color: #2695eb; text-align: left;margin:10px 20px 0px 30px; font-weight: bold;">Register before atleast half an hour before tournament starts.</h4>
+				<h4 style="font-size: 30px; color: #2695eb; text-align: left;margin:10px 20px 0px 30px; font-weight: bold;">Room id & password will be sent to your G-mail address before 20 minutes of match starts.</h4>
+				<h4 style="font-size: 30px; color: #2695eb;text-align: left;margin:10px 20px 0px 30px; font-weight: bold;">Any non-registerd entry will be kicked from room.</h4>
+				<h4 style="font-size: 30px; color: #2695eb;text-align: left;margin:10px 20px 0px 30px; font-weight: bold;">Fill correct PUBG Username.</h4>
+				<br>
+				<h4 style="font-size: 40px; color: #eb3437;margin:10px 20px 0px 30px; font-weight: bold;" >Note* Go through rules and regualtions once:<br> <a style="color:#dce3b3; " href="#">RULES</a></h4>
 
-				<button type="submit" class="reg-button"> Register now</button>
-				<a id="show-less2" style="position: absolute;
-				bottom: 10px;
-				right: 40px;
-				text-decoration: none;
-				color: #fff;
-				transform: rotate(180deg);
-				cursor: pointer;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
+
+			<a href="#reg-form2">	<button style="font-size: 40px; width: 400px; margin: 30px 0 30px 0; cursor: pointer; box-shadow: 2px 4px 20px "  id="form-button2" class="reg-button2"> Register now </button></a>
+
+
+				<a id="show-less2" style="position: absolute;bottom: 10px;right: 40px;text-decoration: none;color: #fff;transform: rotate(180deg);cursor: pointer; font-size: 20px;"><i class="fa fa-3x fa-chevron-circle-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
@@ -204,6 +205,26 @@
 			document.getElementById('show-more2').style.display = "";
 			});
 		</script>
+
+		<div class="reg-form2" id="reg-form2">
+			
+			<div class="form-details">
+				<div id="close-reg-form2" class="close"><a style="text-decoration: none;color: #000;" href="#third-column">+</a></div>
+				<p>MARIO login form<br></p>
+			</div>
+		</div>	
+
+			<script type="text/javascript">
+				document.getElementById('form-button2').addEventListener("click", function() {
+				document.querySelector('.reg-form2').style.display = "flex";
+				document.getElementById('reg-form2').href = "#.reg-form1"
+			});
+
+				document.querySelector('#close-reg-form2').addEventListener("click", function() {
+				document.querySelector('.reg-form2').style.display = "none";
+			});
+		</script>
+
 		
 
 
