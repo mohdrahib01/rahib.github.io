@@ -367,21 +367,18 @@ tournament
 	align-items: center;
 }
 .form-details{
-	height: 50%;
-	width: 80%;
+	height: 500px;
+	width: 60%;
 	background-color:#bdc5c9;
 	padding:130px;
-	box-shadow: 4px 6px 10px #b2c9ed;
+	box-shadow: 4px 6px 10px red, -4px -6px 10px blue;
 	border-radius: 4px;
 /*	display: flex;justify-content: center;
 */	
 }
 
 .close {
-	position: absolute;
-	top: 15%;
-	right: 10%;
-	
+	float: right;
 	font-size: 80px;
 	color: rgb(0 0 0);
 	transform: rotate(45deg);
@@ -406,11 +403,13 @@ tournament
     border: none;
 	border-radius: 50px;
 	box-sizing: 30px 50px;
-	font-size: 35px;
+	font-size: 45px;
 /*	border: 0 0 4px 0 solid #000;
 */	text-align: center;
 	margin-top: 20px;
-
+}.T1form-input:hover{
+	color: #000;
+	background-color: #d6aed1;
 }
 .reg-form-note{
 	font-size: 20px;
@@ -425,5 +424,8 @@ tournament
 	 box-shadow: 2px 3px 10px;
 	 border: none;
 	 border-radius: 30px;
-	 cursor: pointer;
-}
+	 cursor: pointer;	 
+}.form-reg-button:hover {
+	 	color: #fff;
+	 	background-color: #000;
+	 }
