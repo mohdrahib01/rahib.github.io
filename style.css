@@ -145,7 +145,7 @@ nav a:hover{
 
 .current{
      color: black;
-	text-shadow: 0 0 10px #00fcfc;
+	text-shadow: 2px 2px 6px #00fcfc, -1px -2px 6px #b3e6e6;
 }
 
 /**********************************
@@ -369,17 +369,17 @@ tournament
 .form-details{
 	height: 50%;
 	width: 80%;
-	background-color: white;
-	padding:30px;
+	background-color:#bdc5c9;
+	padding:130px;
 	box-shadow: 4px 6px 10px #b2c9ed;
 	border-radius: 4px;
-	display: flex;justify-content: center;
-	align-items: center;
+/*	display: flex;justify-content: center;
+*/	
 }
 
 .close {
 	position: absolute;
-	top: 25%;
+	top: 15%;
 	right: 10%;
 	
 	font-size: 80px;
@@ -388,3 +388,42 @@ tournament
 	cursor: pointer;
 	&:hover {
 		color: #fff;
+}}
+.T1-form{
+	align-items: center;
+	text-align: center;
+
+}
+.T1-heading{
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 1px 1px 10px #0747ad;
+
+}
+.T1form-input{
+	box-shadow: 2px 3px 10px ;
+    border: none;
+	border-radius: 50px;
+	box-sizing: 30px 50px;
+	font-size: 35px;
+/*	border: 0 0 4px 0 solid #000;
+*/	text-align: center;
+	margin-top: 20px;
+
+}
+.reg-form-note{
+	font-size: 20px;
+	color: #ed323e;
+	margin-top: 10px;
+}
+.form-reg-button{
+	 font-size: 40px;
+	 margin-top: 30px;
+	 padding: 10px 60px;
+	 font-weight: bolder;
+	 box-shadow: 2px 3px 10px;
+	 border: none;
+	 border-radius: 30px;
+	 cursor: pointer;
+}

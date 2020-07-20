@@ -84,8 +84,26 @@
 
 			<div class="form-details">
 				<div id="close-reg-form" class="close"><a href="#first-coloumn" style="text-decoration: none;color: #000;"> +</a></div>
-				<p>sgerifyuiwefcuewfcueffe<br>
-				saudifuoweifoerugvoprgvurfgvujrfsgerifyuiwefcuewfcueffe<br></p>
+				
+				<form id="gform" method="POST" data-email="friendyboy02.com"
+          action="https://script.google.com/macros/s/AKfycbzVruC6LI02sjaAnOcQenj3zEDMml6o8VtfDm46/exec" class="T1-form" >
+					<h1 class="T1-heading"  >Registeration Form</h1>
+
+<!-- 					<label for="T1name" required style="font-size: 30px;">Name: </label> -->
+       			    <input id="T1name" name="T1name" class="T1form-input" placeholder=" Name" required autocomplete="of" /><br>
+
+       			    <!-- <label for="T1pubg-user-name" required style="font-size: 30px;">PUBG Username: </label> -->
+       			    <input id="T1pubg-user-name" name="T1pubg-user-name" class="T1form-input" placeholder="PUBG Username" required autocomplete="of"  />
+       			    <p class="reg-form-note">*Please enter valid PUBG username.</p><br>
+
+       			    <input id="T1email" name="T1email" class="T1form-input" type="email" placeholder="Email Address" required autocomplete="of" /><br>
+
+       			    <input id="T1phone" name="T1phone" class="T1form-input" placeholder=" Mobile No." required autocomplete="of" value=""  /><br>
+       			    <p id="T1phone-note" class="reg-form-note"></p>
+
+       			    <button class="form-reg-button">Register</button>
+       			    
+				</form>
 			</div>
 
 			<script type="text/javascript">
@@ -96,7 +114,19 @@
 				document.querySelector('#close-reg-form').addEventListener("click", function() {
 				document.querySelector('.reg-form').style.display = "none";
 			});
+				/*function myfunction() {
+					var numbercheck = document.getElementById('T1phone').value;
+					if (numbercheck.lenght<10  && numbercheck.lenght>11) {
+						document.getElementById('T1phone-note').innerHTML="*ahsgahdhdfad"
+					}
+				}*/
+
+
 		</script>
+
+		<script data-cfasync="false" type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+
 
 
 	
@@ -278,10 +308,6 @@
 </body>
 
 <!--     https://mohdrahib01.github.io/rahib.github.io/        -->
-
-
-
-
 
 
 
